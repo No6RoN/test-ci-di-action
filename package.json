@@ -2,24 +2,26 @@
   "name": "test-bot-ci-di",
   "version": "1.0.0",
   "description": "Discord bot for testing CI/DI",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+		"lint": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/No6RoN/test-ci-di-action.git"
+    "url": "git+https://github.com/No6RoN/test-ci-di-action.git"
   },
   "keywords": [
     "discord"
   ],
   "author": "No6RoN",
   "license": "MIT",
-  "dependencies": {
-    "discord.js": "^14.14.1"
-  },
   "bugs": {
     "url": "https://github.com/No6RoN/test-ci-di-action/issues"
   },
-  "homepage": "https://github.com/No6RoN/test-ci-di-action#readme"
+  "homepage": "https://github.com/No6RoN/test-ci-di-action#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
 }
